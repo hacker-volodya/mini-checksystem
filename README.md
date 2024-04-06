@@ -14,6 +14,7 @@ docker compose up -d --build
 ```
 
 Checksystem will immediately start the game at http://127.0.0.1:8080 (old board is available at http://127.0.0.1:8080/board).
+Services must be started at localhost manually.
 
 Admin: http://127.0.0.1:8080/admin, credentials `root:root`.
 
@@ -24,6 +25,8 @@ docker compose up -d --build
 ```
 
 ## Writing own services
+
+> Example service: https://github.com/hacker-volodya/intro-training
 
 During docker build, `build.py` will search for `services.yml` files in `./services` folder and subfolders. It will copy checkers to checksystem, generate `setup.sh` script and checksystem config.
 
