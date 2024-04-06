@@ -13,7 +13,7 @@ cd mini-checksystem
 docker compose up -d --build
 ```
 
-Checksystem will immediately start the game at http://127.0.0.1:8080.
+Checksystem will immediately start the game at http://127.0.0.1:8080 (old board is available at http://127.0.0.1:8080/board).
 
 Admin: http://127.0.0.1:8080/admin, credentials `root:root`.
 
